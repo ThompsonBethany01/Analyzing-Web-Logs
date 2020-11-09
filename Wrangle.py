@@ -4,7 +4,7 @@ import pandas as pd
 
 def acquire_logs():
     '''
-    Convert csv file of curriculumn web logs to a cleaned dataframe.
+    Convert txt file of curriculumn web logs to a cleaned dataframe.
     '''
     # read csv file to data frame
     df = pd.read_csv('anonymized-curriculum-access.txt',
@@ -23,6 +23,9 @@ def acquire_logs():
 
     # dropping unneeded columns
     df = df.drop(columns=['date','time'], axis=1)
+
+    df['cohort_id'] = df.cohort_id.fillna(0)
+    df['cohort_id'] = df.cohort_id.astype("int")
 
     return df
 
