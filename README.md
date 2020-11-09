@@ -5,7 +5,7 @@ Find actionable information for upper management to present during the board mee
 
 ### Deliverables
 - Jupyter Notebook documenting process to form conclusions
-- One slide presentation on the most important findings that require immediate action or are actionable insights
+- One slide presentation on the most important findings that require immediate action / actionable insights
 
 ### Data Dictionary
 
@@ -19,8 +19,7 @@ Find actionable information for upper management to present during the board mee
 - Which lessons are least accessed?  
 
 ## Project Steps
-### Acquire
-### Prepare
+### Wrangle
 ### Explore
 ### Conclusions
 
