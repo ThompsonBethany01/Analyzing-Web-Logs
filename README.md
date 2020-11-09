@@ -4,8 +4,8 @@
 Find actionable information for upper management to present during the board meeting Thursday morning. 
 
 ### Deliverables
-- [ ] Notebook 
-- [ ] One slide presentation
+- Jupyter Notebook documenting process to form conclusions
+- One slide presentation on the most important findings that require immediate action or are actionable insights
 
 ### Data Dictionary
 
@@ -17,6 +17,12 @@ Find actionable information for upper management to present during the board mee
 - At some point in the last year, ability for students and alumni to cross-access curriculum (web dev to ds, ds to web dev) should have been shut off. Do you see any evidence of that happening? Did it happen before? 
 - What topics are grads continuing to reference after graduation and into their jobs (for each program)? 
 - Which lessons are least accessed?  
+
+## Project Steps
+### Acquire
+### Prepare
+### Explore
+### Conclusions
 
 ## How to Reproduce
 - [ ] Download Data_Analysis.ipynb and Wrangle.py in your working directory.
