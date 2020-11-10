@@ -27,6 +27,23 @@ def acquire_logs():
     df['cohort_id'] = df.cohort_id.fillna(0)
     df['cohort_id'] = df.cohort_id.astype("int")
 
+    df['ip_int'] = df.ip.str.replace(".","").astype("int")
+
+    # filtering out non-curriculumn pages
+    df = df[df.page_viewed.str.contains('jpeg') != True]
+
+    df = df[df.page_viewed.str.contains('json') != True]
+
+    df = df[df.page_viewed.str.contains('jpg') != True]
+
+    df = df[df.page_viewed.str.contains('appendix') != True]
+
+    df = df[df.page_viewed.str.contains('Appendix') != True]
+
+    df = df[df.page_viewed != '/']
+
+    df = df[df.page_viewed != 'toc']
+
     return df
 
 ##################################################################################
