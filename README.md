@@ -1,4 +1,4 @@
-# Analyzing-Web-Logs
+![Header](https://i.pinimg.com/originals/d2/88/bc/d288bcd2ddfff1886ddd267872206f66.png)
 ## About the Project
 ### Goals
 Find actionable information for upper management to present during the board meeting Thursday morning. 
