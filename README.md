@@ -16,15 +16,6 @@ Find actionable information for upper management to present during the board mee
 | cohort_id   | Unique id for cohort, also a staff group; some values are null                                                                         |
 | ip          | Internet Protocol address for the observation (page viewed by user), an identifying number for network hardware connected to a network |
 
-### Questions Asked
-- Which lesson appears to attract the most traffic consistently across cohorts (per program)?
-- Is there a cohort that referred to a lesson significantly more that other cohorts seemed to gloss over? 
-- Are there students who, when active, hardly access the curriculum? If so, what information do you have about these students? 
-- Is there any suspicious activity, such as users/machines/etc accessing the curriculum who shouldn’t be? Does it appear that any web-scraping is happening? Are there any suspicious IP addresses? Any odd user-agents? 
-- At some point in the last year, ability for students and alumni to cross-access curriculum (web dev to ds, ds to web dev) should have been shut off. Do you see any evidence of that happening? Did it happen before? 
-- What topics are grads continuing to reference after graduation and into their jobs (for each program)? 
-- Which lessons are least accessed?  
-
 ## Project Steps
 ### Wrangle
 The curriculum logs are stored in a txt file called ```anonymized-curriculum-access.txt```. Within the Wrangle.py module, this data is aquired and prepped.   
@@ -35,6 +26,47 @@ The curriculum logs are stored in a txt file called ```anonymized-curriculum-acc
 ### Explore
 The data is explored with an emphasis on time series analysis and anomaly detection. Depending on the question, data can be split into dataframes based on program (Web Dev or Data Science), cohort, and/or time period.
 ### Conclusions
+<details>
+<summary> Top Lessons </summary> 
+
+#### Which lesson appears to attract the most traffic consistently across cohorts (per program)?
+</details>
+
+<details>
+<summary> Views by Cohort </summary> 
+
+#### Is there a cohort that referred to a lesson significantly more that other cohorts seemed to gloss over?
+</details>
+
+<details>
+<summary> Inactive Students </summary> 
+
+#### Are there students who, when active, hardly access the curriculum? If so, what information do you have about these students?
+</details>
+
+<details>
+<summary> Suspicous Activity? </summary> 
+
+#### Is there suspicous activity, such as users/machines/etc accessing the curriculum who shouldn’t be? Does it appear that any web-scraping is happening? Are there any suspicious IP addresses? Any odd user-agents? 
+</details>
+
+<details>
+<summary> Cross-Access in Curriculum </summary> 
+
+#### At some point in the last year, ability for students and alumni to cross-access curriculum (web dev to ds, ds to web dev) should have been shut off. Do you see any evidence of that happening? Did it happen before?
+</details>
+
+<details>
+<summary> After Graduation  </summary> 
+
+#### What topics are grads continuing to reference after graduation and into their jobs (for each program)?
+</details>
+
+<details>
+<summary> Least Popular Lessons  </summary> 
+
+#### Which lessons are least accessed?
+</details>
 
 ## How to Reproduce
 - [X] Read this readme.md
