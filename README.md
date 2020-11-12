@@ -30,18 +30,24 @@ The data is explored with an emphasis on time series analysis and anomaly detect
 <summary> Top Lessons </summary> 
 
 #### Which lesson appears to attract the most traffic consistently across cohorts (per program)?
+Introductory curriculum attracts the most page views for both Data Science and Web Dev(Intro to DS and Javascript-i respectively). For Data Science the views peak at the beginning of each cohort, but the trends are consistent across multiple cohorts. Web Dev has a greater amount of cohorts, so trends for the start of the program are not as pronounced.  
+
+![Popular-Lessons-Chart](https://i.pinimg.com/originals/41/a4/c2/41a4c2292cd7de4c7d2ae0596063f2dd.png)
 </details>
 
 <details>
 <summary> Views by Cohort </summary> 
 
 #### Is there a cohort that referred to a lesson significantly more that other cohorts seemed to gloss over?
+Within DS cohorts, there is some variation in most popular lessons viewed. While Darden spent a larger amount of time with the Classification Overview, Curie spent more time with MySQL Overview. 
+Within Web Dev, the lesson did not effect the page views. Views stayed consistent across cohorts, so a lesson was viewed less or more by cohort. For example, throughout the most popular lessons, Cera does not view as often as Fortuna.
 </details>
 
 <details>
 <summary> Inactive Students </summary> 
 
 #### Are there students who, when active, hardly access the curriculum? If so, what information do you have about these students?
+Taking a look at user IDs for current students, it would appear that several have not accessed the curriculum often. However, checking the IP addresses associated with these users will show that some students have multiple user IDs.
 </details>
 
 <details>
