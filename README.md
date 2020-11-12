@@ -23,6 +23,10 @@ The curriculum logs are stored in a txt file called ```anonymized-curriculum-acc
 - Index is set to the timestamp of the observation
 - Columns are renamed appropriately
 - Null cohort IDs are set to 0
+- Converted IP address to integer in seperate column for different manipulation
+- Non-curriculum pages are filtered out of the df, such as '/' or appendix pages  
+
+The prepped dataframe is returned. Because no modeling is needed, the data will not be split.
 ### Explore
 The data is explored with an emphasis on time series analysis and anomaly detection. Depending on the question, data can be split into dataframes based on program (Web Dev or Data Science), cohort, and/or time period.
 ### Conclusions, Click for Details
