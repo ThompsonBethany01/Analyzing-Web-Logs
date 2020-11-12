@@ -96,11 +96,16 @@ User 590:
 I chose to look at each graduated cohort, plotting the cohort's most viewed page over time. To do so, I created a loop to filter out the df to only the observations made by the specific cohort, find the most viewed page from this, then resample on a bi-weekly period. There are 34 total graduated cohorts which are subplotted in 17 columns by 2 rows.
 
 <details>
-<summary> Click for Subplots </summary>
+<summary> Click for Subplot </summary>
 
 ![Top-Lesson-By-Bohort-Over-Time](https://i.pinimg.com/originals/71/d4/fc/71d4fcd51751223de0b7b4762bfc30bf.png)
 
 </details>
+
+Some cohorts viewed their most popular page more in the beginning, while others stayed more consistent. For example:  
+- Cohort 7 viewed javascript-i (specifically operators and variables) with peaks over time
+- Cohort 8 viewed java-i consistently in 2018 but dropped off in views after
+- Cohort 17 viewed javascript-i consistently past graduation
 
 </details>
 
