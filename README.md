@@ -39,8 +39,10 @@ Introductory curriculum attracts the most page views for both Data Science and W
 <summary> Views by Cohort </summary> 
 
 #### Is there a cohort that referred to a lesson significantly more that other cohorts seemed to gloss over?
-Within DS cohorts, there is some variation in most popular lessons viewed. While Darden spent a larger amount of time with the Classification Overview, Curie spent more time with MySQL Overview. 
-Within Web Dev, the lesson did not effect the page views. Views stayed consistent across cohorts, so a lesson was viewed less or more by cohort. For example, throughout the most popular lessons, Cera does not view as often as Fortuna.
+- Within Data Science cohorts, there is some variation in most popular lessons viewed. While Darden spent a larger amount of time with the Classification Overview, Curie spent more time with MySQL Overview, and Bayes spent more time on Intro to DS.  
+- Within Web Dev, the lesson did not significantly affect the page views. Views stayed consistent across cohorts, so a lesson was viewed less or more by cohort. For example, throughout the most popular lessons, Cera does not view as often as Fortuna.  
+
+![Popular-Lessons-Cohorts](https://i.pinimg.com/originals/c3/29/96/c32996a8e623d0c9032198731c08bc99.png)
 </details>
 
 <details>
