@@ -1,11 +1,11 @@
 ![Header](https://i.pinimg.com/originals/d2/88/bc/d288bcd2ddfff1886ddd267872206f66.png)
 ## About the Project
 ### Goals
-Find actionable information for upper management to present during the board meeting Thursday morning (November 12th, 9:00am). 
+Find actionable information for upper management to present during the board meeting Thursday morning (November 12th, 9:00am) on analysis of curriculum web logs. 
 
 ### Deliverables
-- Jupyter Notebook documenting process to conclusions
-- One slide presentation on the most important findings that require immediate action / actionable insights
+- Jupyter Notebook documenting process to conclusions - [Data_Analysis.ipynb](https://github.com/ThompsonBethany01/Analyzing-Web-Logs/blob/main/Data_Analysis.ipynb)
+- One slide [presentation](https://www.canva.com/design/DAENRN4KY-w/KAwBt-fdS0MwwYFH_qC_uw/view?utm_content=DAENRN4KY-w&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu) on the most important findings that require immediate action / actionable insights
 
 ### Data Dictionary
 | feature     | description                                                                                                                            |
